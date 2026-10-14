@@ -4,6 +4,8 @@ An AI-driven application performance monitoring tool: ingests system metrics,
 detects anomalies with ML, diagnoses root causes with an LLM agent, and
 visualizes the whole pipeline in a browser dashboard.
 
+![Dashboard screenshot](docs/dashboard.png)
+
 ## Status: Phases 1–3 and 5 complete (simulator, detection, RCA agent, dashboard)
 
 **Phase 1 — Metrics simulator**: generates a realistic synthetic metrics time
@@ -168,3 +170,4 @@ Streamlit Dashboard
   numbers happened to show.
 - **Synthetic data, honestly labeled as such**: this is a portfolio/learning
   project, not a claim of production-scale validation.
+
