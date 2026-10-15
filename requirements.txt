@@ -1,7 +1,8 @@
-numpy
+﻿numpy
 pandas
 scikit-learn
 statsmodels
+matplotlib
 google-genai
 streamlit
 pytest
