@@ -9,6 +9,8 @@ is checkable without ever importing streamlit.
 
 from __future__ import annotations
 
+import matplotlib
+matplotlib.use("Agg")  # non-interactive backend: never open a GUI window
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -79,3 +81,4 @@ def build_evaluation_bar_figure(eval_rows: list[dict]) -> plt.Figure:
     ax.legend()
     fig.tight_layout()
     return fig
+
